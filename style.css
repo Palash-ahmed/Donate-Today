@@ -1,0 +1,159 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+}
+.background-image{
+    background-image: url(images/donation6.jpg);
+    background-size: 100%;
+    padding-top:80px;
+    padding-bottom: 200px;
+    padding-left: 120px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+}
+#heading{
+    text-align: center;
+    font-size: 60px;
+    color:white;  
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    padding-top: 50px;
+}
+#paragraph{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 25px; 
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+.text-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.button{
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 400px;
+    background-color: rgba(247, 241, 241, 0.911);
+
+}
+.donation{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+
+}
+.selected-tk{
+    color: red;
+    border: 2px solid red;
+}
+.space{
+    width: 100px;
+    height: auto;
+    display: inline;
+    margin-right: 10px;
+} 
+.design{
+    width: 300px;
+    padding: 10px 20px;
+    border-color: transparent;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    text-align: center;
+}
+.padding{
+    padding-top: 50px;
+}
+.donate-plan{
+    display: flex;
+}
+.width{
+    width: 33%;
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#food-family{
+    margin-left: 100px;
+    background-color: rgb(106, 226, 226);
+}
+#shelter-family{
+    background-color: palevioletred;
+}
+#education-children{
+    margin-right: 100px;
+    background-color: plum;
+    padding-bottom: 60px;
+}
+footer{
+    background-color: black;
+}
+#humble{
+    font-style: italic;
+    color: red;
+    margin-bottom: 0px;
+}
+#do-it{
+    color: white;
+    font-style: italic;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.form-box{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 176, 176);
+    box-shadow: 10px 10px 15px;
+}
+.form-box input{
+    font-size: 14px;
+    color: black;
+    padding: 10px 150px;
+    border: none;
+    outline: none;
+    background: rgb(179, 175, 175);
+
+}
+.form-box button{
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.half-width{
+    width: 50%;
+    padding: 20px;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 100px;
+}
+.flexible{
+    display: flex;
+}
